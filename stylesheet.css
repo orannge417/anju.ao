@@ -63,13 +63,13 @@ body header .header-menu-right li {
 
 body header .header-menu-right a {
   color: #323A45;
-  font-weight: 700;
+  font-weight: 700;g
   padding: 10px;
   text-decoration: none;
 }
 
 body header .header-menu-right a:hover {
-  color: #5983ff;
+  color: #475d9e;
   -webkit-transition: color .3s;
   transition: color .3s;
 }
@@ -220,7 +220,7 @@ body .main-section .workshop {
 }
 
 body .main-section .order {
-  background-color: red;
+  background-color: #91002C;
   width: 36%;
 }
 
