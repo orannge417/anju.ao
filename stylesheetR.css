@@ -23,10 +23,6 @@ body a {
 
 body .container {
   width: 100%;
-  /*padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;*/
 }
 
 body header {
@@ -165,7 +161,7 @@ body .intro-section .intro-box .title-box {
   height: 90px;
   width: 28%;
   float: right;
-  padding: 0.7em 1em;
+  padding: 0.5em 1em;
   margin: 1em 0;
   background: #e9e4e4;
   border: solid 4px #5bb7ae;
@@ -180,6 +176,12 @@ body .intro-section .intro-box .title-box h3 {
   text-align: center;
   position: relative;
   top: -5px;
+}
+
+body .intro-section .intro-box .title-box .img-fluid .paracordimg {
+  height: 5px;
+  width: 28%;
+  float: right;
 }
 
 body .intro-section .intro-description {
@@ -254,4 +256,4 @@ body footer .about-me {
   background-color: #e6e6e6;
   height: 300px;
 }
-/*# sourceMappingURL=stylesheet.css.map */
+/*# sourceMappingURL=stylesheetR.css.map */
