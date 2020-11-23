@@ -166,7 +166,6 @@ body {
             }
             .paracordimg{
                 //paracordのところ
-                position: absolute;
                 padding-top:0px;
                 margin-left:40%;
                  width: 60%;
@@ -229,6 +228,7 @@ body {
         }
         
         .paracordex {
+            position: absolute;
             margin-top:7%;
             margin-left:2%
         }
