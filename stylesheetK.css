@@ -170,20 +170,26 @@ body .intro-section .intro-box .img-fluid {
 }
 
 body .intro-section .intro-box .paracordimg {
-  position: absolute;
   padding-top: 0px;
   margin-left: 40%;
   width: 60%;
   height: auto;
 }
 
-body .intro-section .intro-box .townimg img {
-  margin-left: 1000px;
+body .intro-section .intro-box .townimg {
+  float: left;
+  width: 33%;
+  height: auto;
+  margin-left: 10%;
 }
 
-body .intro-section .intro-box .outdoorimg img {
-  width: 100px;
-  height: 10px;
+body .intro-section .intro-box .outdoorimg {
+  width: 63%;
+  height: auto;
+  float: right;
+  margin-top: 1%;
+  margin-right: 30%;
+  position: absolute;
 }
 
 body .intro-section .intro-box .title-box {
@@ -216,8 +222,14 @@ body .intro-section .intro-description {
 }
 
 body .intro-section .paracordex {
+  position: absolute;
   margin-top: 7%;
   margin-left: 2%;
+}
+
+body .intro-section .townex {
+  margin-left: 80%;
+  margin-top: 20%;
 }
 
 body .gallery-section {
