@@ -23,10 +23,6 @@ body a {
 
 body .container {
   width: 100%;
-  /*padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;*/
 }
 
 body header {
@@ -63,13 +59,13 @@ body header .header-menu-right li {
 
 body header .header-menu-right a {
   color: #323A45;
-  font-weight: 700;g
+  font-weight: 700;
   padding: 10px;
   text-decoration: none;
 }
 
 body header .header-menu-right a:hover {
-  color: #475d9e;
+  color: #5983ff;
   -webkit-transition: color .3s;
   transition: color .3s;
 }
@@ -220,7 +216,7 @@ body .main-section .workshop {
 }
 
 body .main-section .order {
-  background-color: #91002C;
+  background-color: red;
   width: 36%;
 }
 
