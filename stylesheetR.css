@@ -178,10 +178,19 @@ body .intro-section .intro-box .title-box h3 {
   top: -5px;
 }
 
-body .intro-section .intro-box .title-box .img-fluid .paracordimg {
-  height: 5px;
-  width: 28%;
+body .intro-section .intro-box .townimg {
+  width: 33%;
+  height: auto;
+  margin-left: 10%;
+}
+
+body .intro-section .intro-box .outdoorimg {
+  width: 63%;
+  height: auto;
   float: right;
+  margin-top: 3%;
+  margin-right: 30%;
+  position: absolute;
 }
 
 body .intro-section .intro-description {
