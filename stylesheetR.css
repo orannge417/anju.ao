@@ -1,0 +1,257 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-weight: 400;
+}
+
+body ul {
+  margin: 0;
+  padding: 0;
+}
+
+body li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body a {
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+body .container {
+  width: 100%;
+  /*padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;*/
+}
+
+body header {
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  line-height: 50px;
+  -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+body header .header-logo {
+  float: left;
+  color: #777;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+  cursor: pointer;
+}
+
+body header .header-menu-right {
+  float: right;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+body header .header-menu-right li {
+  float: left;
+}
+
+body header .header-menu-right a {
+  color: #323A45;
+  font-weight: 700;
+  padding: 10px;
+  text-decoration: none;
+}
+
+body header .header-menu-right a:hover {
+  color: #5983ff;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+body .top-section {
+  margin: 0 auto;
+  background-image: url("top.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+body .top-section .top-inner {
+  padding: 0;
+  margin-top: 50px;
+}
+
+body .top-section .top-inner .top-title {
+  margin-top: 20px;
+  font-size: 100px;
+  color: white;
+}
+
+body .top-section .top-inner .top-description {
+  float: right;
+  margin-bottom: 40px;
+  margin-right: 70px;
+}
+
+body .top-section .top-inner .top-description h2 {
+  margin-top: 100px;
+  font-size: 80px;
+  color: #8FC31F;
+  text-shadow: 4px 5px 6px #808080;
+}
+
+body .top-section .top-inner .top-description h6 {
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: right;
+  line-height: 35px;
+}
+
+body .intro-section {
+  width: 100%;
+}
+
+body .intro-section #intro-carousel {
+  height: 600px;
+}
+
+body .intro-section #intro-carousel li {
+  background-color: #869791;
+  position: relative;
+  top: 10px;
+}
+
+body .intro-section .intro-box {
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
+  border: 2px solid #007b43;
+  /*左枠線*/
+  width: 90%;
+  margin: 2em auto;
+  padding: 20px 15px 15px 20px;
+  z-index: 0;
+  margin-top: 0px;
+}
+
+body .intro-section .intro-box::before, body .intro-section .intro-box::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+}
+
+body .intro-section .intro-box::before {
+  border: 1px solid #3eb370;
+  /*中枠線*/
+  bottom: -4px;
+  right: -4px;
+  z-index: 1;
+}
+
+body .intro-section .intro-box::after {
+  border: 1px solid #7ebea5;
+  /*右枠線*/
+  bottom: -7px;
+  right: -7px;
+  z-index: 2;
+}
+
+body .intro-section .intro-box .title-box {
+  height: 90px;
+  width: 28%;
+  float: right;
+  padding: 0.7em 1em;
+  margin: 1em 0;
+  background: #e9e4e4;
+  border: solid 4px #5bb7ae;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+body .intro-section .intro-box .title-box h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 70px;
+  text-align: center;
+  position: relative;
+  top: -5px;
+}
+
+body .intro-section .intro-description {
+  font-size: 20px;
+}
+
+body .gallery-section {
+  height: 600px;
+  background-color: #e6e6e6;
+}
+
+body .gallery-section .gallery-title h2 {
+  font-size: 60px;
+  text-align: center;
+}
+
+body .main-section {
+  height: 600px;
+  width: 100%;
+  background-color: orange;
+}
+
+body .main-section li {
+  float: left;
+  margin: 0;
+  text-align: center;
+  height: 600px;
+  margin: 0 auto;
+}
+
+body .main-section h3 {
+  margin-top: 30px;
+}
+
+body .main-section .workshop {
+  background-color: orange;
+  width: 32%;
+}
+
+body .main-section .order {
+  background-color: red;
+  width: 36%;
+}
+
+body .main-section .online {
+  background-color: orange;
+  width: 32%;
+}
+
+body footer {
+  background-color: #cccccc;
+  height: 300px;
+  width: 100%;
+}
+
+body footer .contact-info {
+  margin-top: 20px;
+  width: 40%;
+}
+
+body footer .contact-info h3 {
+  font-size: 40px;
+}
+
+body footer .about-me {
+  width: 20%;
+  float: right;
+  position: absolute;
+  top: 2460px;
+  right: 30px;
+  margin-top: 10px;
+  background-color: #e6e6e6;
+  height: 300px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
