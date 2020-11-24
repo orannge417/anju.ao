@@ -77,29 +77,30 @@ body {
         .top-inner {
             padding:0;
             margin-top: 50px;
-
+            /*
             .top-title  {
+                font-style: Chalkduster;
                 margin-top:20px;
                 font-size: 100px;
                 color: white;
+            }*/
+            .logoimg{
+                margin: 0 auto;
+                width: 40%;
+                height: auto;
+                margin-left: 30%;
+                margin-top: 2%;
+
             }
 
             .top-description {
-                float: right;
-                margin-bottom: 40px;
-                margin-right:70px;
 
                 h2 {
-                    margin-top: 100px;
-                    font-size: 80px;
-                    color: #8FC31F;
-                    text-shadow: 4px 5px 6px #808080;
-                }
-                h6 {
-                    margin-top: 40px;
-                    font-size: 20px;
-                    text-align: right;
-                    line-height: 35px;
+                    font-style: Marker Felt, fantasy;
+                    color: white;
+                    margin: 0 auto;
+                    margin-top: 0%;
+                    text-align: center;
                 }
             }
 
@@ -141,25 +142,6 @@ body {
 
             margin-top: 0px;
             
-            &::before,&::after {
-                position: absolute;
-                content: '';
-                width: 100%;
-                //height: 100%;
-            }
-            &::before {
-                border: 1px solid #3eb370; /*中枠線*/
-                
-                bottom: -4px;
-                right: -4px;
-                z-index: 1;
-            }
-            &::after {
-                border: 1px solid #7ebea5; /*右枠線*/
-                bottom: -7px;
-                right: -7px;
-                z-index: 2;
-            }
             .img-fluid {
                 //共通   
                 float:right;
@@ -201,7 +183,7 @@ body {
                 //padding: 0.5em 1em;
                 //margin: 1em 0;
                 background: #e9e4e4;
-                border: solid 4px #5bb7ae;
+                border: solid 6px #0ba2d8;
                 box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
 
                 h3  {
@@ -239,12 +221,30 @@ body {
         .outdoorex {
 
         }
-
-
+    }
+    //自己紹介
+    .aboutme-intro {
+        height: 500px;
+        width:100%;
+        //画像設定
+        .aboutmeimg{
+            margin-top:3%;
+            margin-left:13%;
+            width: 17%;
+            height: auto;
+        }
+        .aboutme-description{
+            float:right;
+            margin-top: 5%;
+            margin-right:25%;
+            font-size: 200%;
+            .h1{
+                text-align: center;
+            }
+        }
     }
 
     .gallery-section {
-        height: 600px;
         background-color: darken(white, 10%);
 
         .gallery-title{
@@ -253,6 +253,33 @@ body {
                 text-align: center;
             }
         }
+
+        #gallery-carousel {
+            height: 700px;
+            margin-bottom: 2%;
+        }
+
+        .gallery-fluid{
+            margin: 0 auto;
+            width: 25%;
+            height: auto;
+        }
+
+        .g0 {
+            width: 25%;
+            height: auto;
+        }
+
+        .g1,.g2,.g3,.g4{
+            width: 35%;
+        }
+        .g5{
+            width:60%;
+        }
+        .g9{
+            width:50%;
+        }
+
     }
 
     .main-section {
@@ -308,10 +335,8 @@ body {
         .about-me {
             width: 20%;
             float: right;
-            position: absolute;
-            top: 2460px;
             right: 30px;
-            margin-top: 10px;
+            margin-bottom: 15%;
             background-color: darken(white, 10%);
             height: 300px;
             
