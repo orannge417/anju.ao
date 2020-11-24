@@ -104,6 +104,27 @@ body .top-section .top-inner .top-description h2 {
   text-align: center;
 }
 
+body .about {
+  height: 40vw;
+  width: 100%;
+  text-align: center;
+}
+
+body .about .about-inner {
+  margin-top: 4%;
+}
+
+body .about .about-inner .about-title {
+  font-size: 7vw;
+  color: #0ba2d8;
+}
+
+body .about .about-inner .about-ex {
+  padding-top: 2%;
+  font-size: 2.3vw;
+  line-height: 180%;
+}
+
 body .intro-section {
   width: 100%;
 }
