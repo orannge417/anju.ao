@@ -104,24 +104,45 @@ body .top-section .top-inner .top-description h2 {
   text-align: center;
 }
 
+body .about {
+  height: 40vw;
+  width: 100%;
+  text-align: center;
+}
+
+body .about .about-inner {
+  margin-top: 3vw;
+}
+
+body .about .about-inner .about-title {
+  font-size: 7vw;
+  color: #0ba2d8;
+}
+
+body .about .about-inner .about-ex {
+  padding-top: 1vw;
+  font-size: 2.3vw;
+  line-height: 180%;
+}
+
 body .intro-section {
   width: 100%;
 }
 
 body .intro-section #intro-carousel {
-  height: 600px;
+  height: 34vw;
 }
 
 body .intro-section #intro-carousel li {
   background-color: #869791;
   position: relative;
-  top: 10px;
+  top: 1vw;
 }
 
 body .intro-section .intro-box {
   margin: 0 auto;
   width: 100%;
-  height: 600px;
+  height: 34vw;
   overflow: hidden;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -268,7 +289,7 @@ body .gallery-section .g9 {
 body .main-section {
   height: 600px;
   width: 100%;
-  background-color: orange;
+  background: linear-gradient(-135deg, #a8e8ff, #067299);
 }
 
 body .main-section li {
@@ -284,17 +305,14 @@ body .main-section h3 {
 }
 
 body .main-section .workshop {
-  background-color: orange;
   width: 32%;
 }
 
 body .main-section .order {
-  background-color: red;
   width: 36%;
 }
 
 body .main-section .online {
-  background-color: orange;
   width: 32%;
 }
 
