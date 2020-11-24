@@ -255,7 +255,7 @@ body {
         }
 
         #gallery-carousel {
-            height: 700px;
+            height: 30%;
             margin-bottom: 2%;
         }
 
@@ -266,12 +266,18 @@ body {
         }
 
         .g0 {
-            width: 25%;
+            width: 28%;
             height: auto;
         }
 
         .g1,.g2,.g3,.g4{
-            width: 35%;
+            width: 37%;
+        }
+        .g6, .g7{
+            width: 28%;
+        }
+        .g8{
+            width: 20%;
         }
         .g5{
             width:60%;
