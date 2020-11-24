@@ -20,7 +20,7 @@ body {
 
     .container  {
         width: 100%;
-
+        
     }
 
     header {
@@ -142,15 +142,12 @@ body {
 
             margin-top: 0px;
             
-            .img-fluid {
-                //共通   
-                float:right;
-            }
             .paracordimg{
                 //paracordのところ
-                padding-top:0px;
-                margin-left:40%;
-                 width: 60%;
+                float:left;
+                margin-top:1%;
+                margin-left:0%;
+                 width: 63%;
                  height: auto;
             }
             
@@ -158,7 +155,7 @@ body {
                 float:left;
                 width: 33%;
                 height: auto;
-                margin-left: 10%
+                margin-left: 20%
             
 
             }
@@ -206,30 +203,22 @@ body {
 
         .intro-description {
             font-size: 20px;
+            position: absolute;
+            margin-top:10%;
+            margin-left:65%
 
         }
         
-        .paracordex {
-            position: absolute;
-            margin-top:7%;
-            margin-left:2%
-        }
-        .townex {
-            margin-left:80%;
-            margin-top:20%;
-        }
-        .outdoorex {
-
-        }
     }
     //自己紹介
     .aboutme-intro {
-        height: 500px;
+        height: 40%;
         width:100%;
         //画像設定
         .aboutmeimg{
             margin-top:3%;
             margin-left:13%;
+            margin-bottom:3%;
             width: 17%;
             height: auto;
         }
@@ -251,11 +240,12 @@ body {
             h2 {
                 font-size: 60px;
                 text-align: center;
+                margin-bottom: 2%;
             }
         }
 
         #gallery-carousel {
-            height: 700px;
+            height: 37vw;
             margin-bottom: 2%;
         }
 
@@ -266,12 +256,18 @@ body {
         }
 
         .g0 {
-            width: 25%;
+            width: 28%;
             height: auto;
         }
 
         .g1,.g2,.g3,.g4{
-            width: 35%;
+            width: 37%;
+        }
+        .g6, .g7{
+            width: 28%;
+        }
+        .g8{
+            width: 20%;
         }
         .g5{
             width:60%;
@@ -321,11 +317,19 @@ body {
     footer {
         background-color: darken(white, 20%);
         height: 300px;
-        width: 100%;
+        .container{
+            width:100%;
+            height: 0%;
+            margin:0;
+            padding:0;
+        }
 
         .contact-info {
-            margin-top: 20px;
-            width: 40%;
+            margin-top: 1%;
+            width: 10%;
+            margin-right:0;
+            padding-right:0;
+            right:0;
 
             h3 {
                 font-size: 40px;
@@ -333,12 +337,10 @@ body {
         }
 
         .about-me {
+            margin-top:1%;
+            margin-left:30%;
+            position:relative;
             width: 20%;
-            float: right;
-            right: 30px;
-            margin-bottom: 15%;
-            background-color: darken(white, 10%);
-            height: 300px;
             
         }
     }

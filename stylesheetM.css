@@ -139,14 +139,11 @@ body .intro-section .intro-box {
   margin-top: 0px;
 }
 
-body .intro-section .intro-box .img-fluid {
-  float: right;
-}
-
 body .intro-section .intro-box .paracordimg {
-  padding-top: 0px;
-  margin-left: 40%;
-  width: 60%;
+  float: left;
+  margin-top: 1%;
+  margin-left: 0%;
+  width: 63%;
   height: auto;
 }
 
@@ -154,7 +151,7 @@ body .intro-section .intro-box .townimg {
   float: left;
   width: 33%;
   height: auto;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 
 body .intro-section .intro-box .outdoorimg {
@@ -193,27 +190,20 @@ body .intro-section .carousel-control {
 
 body .intro-section .intro-description {
   font-size: 20px;
-}
-
-body .intro-section .paracordex {
   position: absolute;
-  margin-top: 7%;
-  margin-left: 2%;
-}
-
-body .intro-section .townex {
-  margin-left: 80%;
-  margin-top: 20%;
+  margin-top: 10%;
+  margin-left: 65%;
 }
 
 body .aboutme-intro {
-  height: 500px;
+  height: 40%;
   width: 100%;
 }
 
 body .aboutme-intro .aboutmeimg {
   margin-top: 3%;
   margin-left: 13%;
+  margin-bottom: 3%;
   width: 17%;
   height: auto;
 }
@@ -236,10 +226,11 @@ body .gallery-section {
 body .gallery-section .gallery-title h2 {
   font-size: 60px;
   text-align: center;
+  margin-bottom: 2%;
 }
 
 body .gallery-section #gallery-carousel {
-  height: 700px;
+  height: 37vw;
   margin-bottom: 2%;
 }
 
@@ -250,12 +241,20 @@ body .gallery-section .gallery-fluid {
 }
 
 body .gallery-section .g0 {
-  width: 25%;
+  width: 28%;
   height: auto;
 }
 
 body .gallery-section .g1, body .gallery-section .g2, body .gallery-section .g3, body .gallery-section .g4 {
-  width: 35%;
+  width: 37%;
+}
+
+body .gallery-section .g6, body .gallery-section .g7 {
+  width: 28%;
+}
+
+body .gallery-section .g8 {
+  width: 20%;
 }
 
 body .gallery-section .g5 {
@@ -302,12 +301,21 @@ body .main-section .online {
 body footer {
   background-color: #cccccc;
   height: 300px;
+}
+
+body footer .container {
   width: 100%;
+  height: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 body footer .contact-info {
-  margin-top: 20px;
-  width: 40%;
+  margin-top: 1%;
+  width: 10%;
+  margin-right: 0;
+  padding-right: 0;
+  right: 0;
 }
 
 body footer .contact-info h3 {
@@ -315,11 +323,9 @@ body footer .contact-info h3 {
 }
 
 body footer .about-me {
+  margin-top: 1%;
+  margin-left: 30%;
+  position: relative;
   width: 20%;
-  float: right;
-  right: 30px;
-  margin-bottom: 15%;
-  background-color: #e6e6e6;
-  height: 300px;
 }
 /*# sourceMappingURL=stylesheetM.css.map */
