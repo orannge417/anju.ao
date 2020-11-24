@@ -25,31 +25,30 @@ body .container {
 }
 
 body header {
-  height: 50px;
+  height: 2.7vw;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   background-color: white;
-  line-height: 50px;
-  -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+  line-height: 2.7vw;
   z-index: 10;
 }
 
 body header .header-logo {
   float: left;
-  color: #777;
+  color: #0ba2d8;
   font-weight: 700;
-  font-size: 30px;
+  margin-left: 10vw;
+  font-size: 1.5vw;
   font-family: 'Dosis', sans-serif;
   cursor: pointer;
 }
 
 body header .header-menu-right {
   float: right;
-  margin-right: 20px;
-  font-size: 30px;
+  margin-right: 1vw;
+  font-size: 1.5vw;
 }
 
 body header .header-menu-right li {
@@ -59,12 +58,12 @@ body header .header-menu-right li {
 body header .header-menu-right a {
   color: #323A45;
   font-weight: 700;
-  padding: 10px;
+  padding: 10vw;
   text-decoration: none;
 }
 
 body header .header-menu-right a:hover {
-  color: #5983ff;
+  color: #0ba2d8;
   -webkit-transition: color .3s;
   transition: color .3s;
 }
@@ -73,35 +72,25 @@ body .top-section {
   margin: 0 auto;
   background-image: url("top.jpg");
   background-size: cover;
-  height: 600px;
-}
-
-body .top-section .top-inner {
-  padding: 0;
-  margin-top: 50px;
-  /*
-            .top-title  {
-                font-style: Chalkduster;
-                margin-top:20px;
-                font-size: 100px;
-                color: white;
-            }*/
+  height: 40vw;
 }
 
 body .top-section .top-inner .logoimg {
   margin: 0 auto;
-  width: 40%;
+  margin-top: 8vw;
+  width: 40vw;
   height: auto;
-  margin-left: 30%;
-  margin-top: 2%;
+  margin-left: 30vw;
+  margin-bottom: 0;
 }
 
-body .top-section .top-inner .top-description h2 {
-  font-style: Marker Felt, fantasy;
+body .top-section .top-inner .top-description {
+  font-family: 'Marker Felt', fantasy;
   color: white;
   margin: 0 auto;
   margin-top: 0%;
   text-align: center;
+  font-size: 3vw;
 }
 
 body .about {
@@ -115,12 +104,36 @@ body .about .about-inner {
 }
 
 body .about .about-inner .about-title {
-  font-size: 7vw;
+  font-size: 1vw;
   color: #0ba2d8;
+  position: relative;
+  display: inline-block;
+  padding: 0 46%;
+  text-align: center;
+}
+
+body .about .about-inner .about-title :before, body .about .about-inner .about-title :after {
+  margin: 0 auto;
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 41vw;
+  height: 1.5vw;
+  border-top: solid 0.4vw #0ba2d8;
+  border-bottom: solid 0.4vw #0ba2d8;
+}
+
+body .about .about-inner .about-title :before {
+  left: 0;
+}
+
+body .about .about-inner .about-title :after {
+  right: 0;
 }
 
 body .about .about-inner .about-ex {
-  padding-top: 1vw;
+  padding-top: 4vw;
   font-size: 2.3vw;
   line-height: 180%;
 }
@@ -162,17 +175,17 @@ body .intro-section .intro-box {
 
 body .intro-section .intro-box .paracordimg {
   float: left;
-  margin-top: 1%;
+  margin-top: 4vw;
   margin-left: 0%;
-  width: 63%;
+  width: 50vw;
   height: auto;
 }
 
 body .intro-section .intro-box .townimg {
   float: left;
-  width: 33%;
+  width: 30vw;
   height: auto;
-  margin-left: 20%;
+  margin-left: 15vw;
 }
 
 body .intro-section .intro-box .outdoorimg {
