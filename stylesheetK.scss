@@ -286,7 +286,19 @@ body {
 
         .order {
             width: 32%;
-
+            .order-title{
+                margin: 0 auto;
+                font-size: 4vw;
+                margin-top: 2.6vw;
+                color: #FEA54C;
+                text-shadow: 4px 2px 1px #880a0a;
+            }
+            .order-contents{
+                margin:0 auto;
+                font-size: 1.4vw;
+                margin-top: 0.7vw;
+                line-height: 185%;
+            }
             .order-button{
 
             }
@@ -294,7 +306,19 @@ body {
 
         .workshop {
             width: 36%;
-
+            .workshop-title{
+                margin: 0 auto;
+                font-size: 4vw;
+                margin-top: 2.6vw;
+                color: #FEA54C;
+                text-shadow: 4px 2px 1px #880a0a;
+            }
+            .workshop-contents{
+                margin:0 auto;
+                font-size: 1.4vw;
+                margin-top: 0.7vw;
+                line-height: 185%;
+            }
             .workshop-button{
 
             }
@@ -302,7 +326,19 @@ body {
 
         .event {
             width: 32%;
-
+            .event-title{
+                margin: 0 auto;
+                font-size: 4vw;
+                margin-top: 2.6vw;
+                color: #FEA54C;
+                text-shadow: 4px 2px 1px #880a0a;
+            }
+            .event-contents{
+                margin:0 auto;
+                font-size: 1.4vw;
+                margin-top: 0.7vw;
+                line-height: 185%;
+            }
             .event-button{
                 
             }
