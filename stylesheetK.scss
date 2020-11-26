@@ -109,7 +109,7 @@ body {
 
                     position: relative;
                     display: inline-block;
-                    padding: 0 50%;
+                    padding: 0 46%;
                   
                   
                   :before, :after {
@@ -118,15 +118,14 @@ body {
                     position: absolute;
                     top: 50%;
                     display: inline-block;
-                    width: 43vw;
+                    width: 41vw;
                     height: 1.5vw;
                     border-top: solid 0.4vw #0ba2d8;
                     border-bottom: solid 0.4vw #0ba2d8;
+                    
                   }
-                  
+                  text-align: center;
                   :before {
-                    margin-left:0 !important;
-                    margin-right:5vw;
                     left:0;
                   }
                   :after {
@@ -134,7 +133,7 @@ body {
                   }
             }
             .about-ex{
-                padding-top:1vw;
+                padding-top:4vw;
                 font-size: 2.3vw;
                 line-height: 180%;
             }
@@ -266,6 +265,50 @@ body {
         }
     }
 
+    .main-section {
+        height: 600px;
+        width: 100%;
+        background: linear-gradient(-135deg, #a8e8ff, #067299);
+
+        li {
+            float: left;
+            margin: 0;
+            text-align: center;
+            height: 600px;
+
+            margin: 0 auto;
+            
+        }
+
+        h3 {
+            margin-top: 30px;
+        }
+
+        .order {
+            width: 32%;
+
+            .order-button{
+
+            }
+        }
+
+        .workshop {
+            width: 36%;
+
+            .workshop-button{
+
+            }
+        }
+
+        .event {
+            width: 32%;
+
+            .event-button{
+                
+            }
+        }
+    }
+
     .gallery-section {
         background-color: darken(white, 10%);
 
@@ -309,39 +352,6 @@ body {
             width:50%;
         }
 
-    }
-
-    .main-section {
-        height: 600px;
-        width: 100%;
-        background: linear-gradient(-135deg, #a8e8ff, #067299);
-
-        li {
-            float: left;
-            margin: 0;
-            text-align: center;
-            height: 600px;
-
-            margin: 0 auto;
-            
-        }
-
-        h3 {
-            margin-top: 30px;
-        }
-
-        .workshop {
-            width: 32%;
-        }
-
-        .order {
-            width: 36%;
-
-        }
-
-        .online {
-            width: 32%;
-        }
     }
 
     footer {
