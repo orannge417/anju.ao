@@ -41,6 +41,7 @@ body {
             font-size: 1.5vw;
             font-family: 'Dosis', sans-serif;
             cursor: pointer;
+            display:inline-block;
         }
 
         .header-menu-right {
@@ -55,7 +56,8 @@ body {
             a {
                 color: #323A45;
                 font-weight: 700;
-                padding: 10vw;
+                padding-left: 10vw;
+                padding-right:10vw;
                 text-decoration: none;
 
                 &:hover {
@@ -291,8 +293,8 @@ body {
                 font-size: 4vw;
                 margin-top: 2.6vw;
                 color: #FEA54C;
-                text-shadow: 0px 2px 7px #964AF5;
-                font-family: PMingLiU;
+                text-shadow: 0vw 0.1vw 0.5vw #964AF5;
+                font-family: Tunga,serif;
             }
             .order-contents{
                 margin:0 auto;
@@ -312,7 +314,7 @@ body {
                 font-size: 4vw;
                 margin-top: 2.6vw;
                 color: #FEA54C;
-                text-shadow: 0px 2px 7px #964AF5;
+                text-shadow: 0vw 0.1vw 0.5vw #964AF5;
                 font-family: PMingLiU;
             }
             .workshop-contents{
@@ -322,7 +324,8 @@ body {
                 line-height: 185%;
             }
             .workshop-button{
-
+                position: relative;
+                margin-top:40vw;
             }
         }
 
@@ -333,7 +336,7 @@ body {
                 font-size: 4vw;
                 margin-top: 2.6vw;
                 color: #FEA54C;
-                text-shadow: 0px 2px 7px #964AF5;
+                text-shadow: 0vw 0.1vw 0.5vw #964AF5;
                 font-family: PMingLiU;
             }
             .event-contents{
@@ -343,7 +346,7 @@ body {
                 line-height: 185%;
             }
             .event-button{
-                
+                margin-top:40vw;
             }
         }
     }

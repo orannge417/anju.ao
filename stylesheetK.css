@@ -43,6 +43,7 @@ body header .header-logo {
   font-size: 1.5vw;
   font-family: 'Dosis', sans-serif;
   cursor: pointer;
+  display: inline-block;
 }
 
 body header .header-menu-right {
@@ -58,7 +59,8 @@ body header .header-menu-right li {
 body header .header-menu-right a {
   color: #323A45;
   font-weight: 700;
-  padding: 10vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   text-decoration: none;
 }
 
@@ -108,7 +110,8 @@ body .about .about-inner .about-title {
   color: #0ba2d8;
   position: relative;
   display: inline-block;
-  padding: 0 50%;
+  padding: 0 46%;
+  text-align: center;
 }
 
 body .about .about-inner .about-title :before, body .about .about-inner .about-title :after {
@@ -117,15 +120,13 @@ body .about .about-inner .about-title :before, body .about .about-inner .about-t
   position: absolute;
   top: 50%;
   display: inline-block;
-  width: 43vw;
+  width: 41vw;
   height: 1.5vw;
   border-top: solid 0.4vw #0ba2d8;
   border-bottom: solid 0.4vw #0ba2d8;
 }
 
 body .about .about-inner .about-title :before {
-  margin-left: 0 !important;
-  margin-right: 5vw;
   left: 0;
 }
 
@@ -134,7 +135,7 @@ body .about .about-inner .about-title :after {
 }
 
 body .about .about-inner .about-ex {
-  padding-top: 1vw;
+  padding-top: 4vw;
   font-size: 2.3vw;
   line-height: 180%;
 }
@@ -254,6 +255,93 @@ body .aboutme-intro .aboutme-description .h1 {
   text-align: center;
 }
 
+body .main-section {
+  height: 600px;
+  width: 100%;
+  background: linear-gradient(-135deg, #a8e8ff, #0d9bcf);
+}
+
+body .main-section li {
+  float: left;
+  margin: 0;
+  text-align: center;
+  height: 600px;
+  margin: 0 auto;
+}
+
+body .main-section h3 {
+  margin-top: 30px;
+}
+
+body .main-section .order {
+  width: 32%;
+}
+
+body .main-section .order .order-title {
+  margin: 0 auto;
+  font-size: 4vw;
+  margin-top: 2.6vw;
+  color: #FEA54C;
+  text-shadow: 0vw 0.1vw 0.5vw #964AF5;
+  font-family: Tunga,serif;
+}
+
+body .main-section .order .order-contents {
+  margin: 0 auto;
+  font-size: 1.4vw;
+  margin-top: 0.7vw;
+  line-height: 185%;
+}
+
+body .main-section .workshop {
+  width: 36%;
+}
+
+body .main-section .workshop .workshop-title {
+  margin: 0 auto;
+  font-size: 4vw;
+  margin-top: 2.6vw;
+  color: #FEA54C;
+  text-shadow: 0vw 0.1vw 0.5vw #964AF5;
+  font-family: PMingLiU;
+}
+
+body .main-section .workshop .workshop-contents {
+  margin: 0 auto;
+  font-size: 1.4vw;
+  margin-top: 0.7vw;
+  line-height: 185%;
+}
+
+body .main-section .workshop .workshop-button {
+  position: relative;
+  margin-top: 40vw;
+}
+
+body .main-section .event {
+  width: 32%;
+}
+
+body .main-section .event .event-title {
+  margin: 0 auto;
+  font-size: 4vw;
+  margin-top: 2.6vw;
+  color: #FEA54C;
+  text-shadow: 0vw 0.1vw 0.5vw #964AF5;
+  font-family: PMingLiU;
+}
+
+body .main-section .event .event-contents {
+  margin: 0 auto;
+  font-size: 1.4vw;
+  margin-top: 0.7vw;
+  line-height: 185%;
+}
+
+body .main-section .event .event-button {
+  margin-top: 40vw;
+}
+
 body .gallery-section {
   background-color: #e6e6e6;
 }
@@ -298,36 +386,6 @@ body .gallery-section .g5 {
 
 body .gallery-section .g9 {
   width: 50%;
-}
-
-body .main-section {
-  height: 600px;
-  width: 100%;
-  background: linear-gradient(-135deg, #a8e8ff, #067299);
-}
-
-body .main-section li {
-  float: left;
-  margin: 0;
-  text-align: center;
-  height: 600px;
-  margin: 0 auto;
-}
-
-body .main-section h3 {
-  margin-top: 30px;
-}
-
-body .main-section .workshop {
-  width: 32%;
-}
-
-body .main-section .order {
-  width: 36%;
-}
-
-body .main-section .online {
-  width: 32%;
 }
 
 body footer {
