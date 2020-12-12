@@ -16,6 +16,10 @@ body {
     a {
         text-decoration: none;
         transition: all .3s;
+
+        img {
+            border: none;
+        }
     }
 
     .container  {
@@ -155,9 +159,118 @@ body {
             color: white !important;
         }                            
 
-        
     }
+   
+    .workshop_schedule{
+        margin-bottom:5vw;
 
+        .list_box{
+            margin-top: 3vw;
+        }
+        .list_box:last-child {
+            margin-bottom: 0;
+        }    
+        .list_box{
+            .list_boxTtl{
+                border-bottom: 2px solid #c3e1ec;
+                font-size: 4rem;
+                font-weight: bold;
+                line-height: 1;
+                color: black;
+
+                .list_boxTtl_text{
+                    position:relative;
+                    display: inline-block;
+                    margin-bottom: -2px;
+                    margin-left: 5%;
+                    padding: 10px 3px 15px 3px;
+                    border-bottom: 2px solid #0ba2d8;
+                }
+            }
+
+            .list_boxInc{
+                .list_box_item{
+                    position: relative;
+                    //child contentsを横並びにする
+                    display: flex;
+                    //child contentsの配置を均等にする
+                    justify-content: space-between;
+                    //child contentsの並びを逆にする（画像と説明の順序）
+                    flex-direction: row-reverse;
+                }
+                .list_box_item:after{
+                    content: '';
+                    display: block;
+                    border-bottom: 4px dotted #0ba2d8;
+                    width:100%;
+                    height: 0;
+                }
+                
+                
+                .list_box_item:hover{
+                    background-color: #c3e1ec;
+                    text-decoration: none !important;
+
+                    .ttl{
+                        text-decoration: underline !important;
+                    }
+                }
+
+                .list_box_item{
+                    .list_box_itemInfo {
+                        width: 63%;
+                    }
+
+                    .list_box_itemImg {
+                        padding-top:2vw;
+                        margin-bottom: 24px;
+                        width: 35%;
+                        margin-left:-90vw;
+                        margin-right: 3vw;
+
+                        .list_box_itemImg_item {
+                            width:100%;
+                            height: auto;
+                        }
+                    }
+
+                    //ボックスタイトル部分
+                    .list_box_itemTtl {
+                        padding-top: 15px;
+                        margin-bottom: 15px;
+                        .ttl_cat{
+                            display: inline-block;
+                            margin-right: 5%;
+                            border-radius: 7px;
+                            border: 2px solid #0ba2d8;
+                            padding: 3px;
+                            width: 15%;
+                            background-color: rgba(253, 253, 253, 1);
+                            text-align: center;
+                            vertical-align: 3px;
+                            font-size: 2.4vw;
+                            line-height: 1;
+                            color: rgba(51,51,51,1);
+                        }
+                        .ttl{
+                            font-size: 3.1vw;
+                            line-height: 1;
+                            color: rgb(96, 96, 211);
+
+                        }
+                    }
+
+                    .list_box_detail{
+                        font-size: 1.3vw;
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
 
     footer {
         background-color: darken(white, 20%);
