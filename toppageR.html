@@ -11,27 +11,27 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <!--ヘッダー-->
         <header>
             <div class="container">
                 <div class="header-left">
-                    <!--ロゴの配置-->
-                    <div id="top-btn" class="header-logo">anju.ao</div>
+                    <a id="top-btn" class="header-logo" href="#">anju.ao</a>
                 </div>
 
                 <div class="header-menu">
                     <!--設定するボタンを決める-->
                     <ul class="header-menu-right">
                         <li>
-                            <a href="#">Paracordとは</a>
+                            <a href="#">ORDER</a>
                         </li>
                         <li>
-                            <a href="#">Gallery</a>
+                            <a href="workshopK.html">WORKSHOP</a>
                         </li>
                         <li>
-                            <a href="#">What to do</a>
+                            <a href="event.html">EVENT</a>
                         </li>
                     </ul>
                 </div>
@@ -42,13 +42,27 @@
         <div class="top-section gray-section">
             <div class="top-inner">
                 <div class="container">
-                    <div class="top-title">Dog & Cat</div>
+                    <img class="logoimg" src="logo.png" alt="ロゴ">
                     <div class="top-description">
-                      <h2>Paracord craft</h2>
-                      <h6>本当に気に入った デザイン 色柄のコードで<br>
-                          シーンに合わせた リードや首輪が作れます。<br>
-                          ワークショップ・動画生配信でワークショップも開催しています!<br>
-                      </h6>
+                      PARACORD WORKSHOP FOR DOG COLLAR AND LEASH
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--ABOUTセクション-->
+        <div class="about">
+            <div class="container">
+                <div class = about-inner>
+                    <div class = about-title>
+                        <h1>ABOUT</h1>
+                    </div>
+                    <div class="about-ex">
+                        anju.aoでは、<br>
+                        本当に気に入った デザイン 色柄のコードで<br>
+                        シーンに合わせた リードや首輪が作れます。<br>
+                        ワークショップ・動画生配信で<br>
+                        ワークショップも開催しています!<br>
                     </div>
                 </div>
             </div>
@@ -59,7 +73,7 @@
         <div id="intro" class="intro-section">
             <div class="container">
                 <!--イントロカローセル外枠-->
-                <div id="intro-carousel" class="carousel slide" data-ride="carousel">
+                <div id="intro-carousel" class="carousel slide" data-ride="carousel" data-pause="hover">
                     <!--インジケータ-->
                     <ol class="carousel-indicators">
                         <li data-target="#intro-carousel" data-slide-to="0" class="active"></li>
@@ -70,9 +84,10 @@
                     <div class="carousel-inner">
                         <!--スライド1-->
                         <div class="item intro-box active">
-                            <div class="title-box"><h3>Paracord</h3></div>
                             <img class="img-fluid paracordimg" src="images/paracord.jpg" alt="パラコードテンプレート">
-                            <div class="intro-description">
+                            <div class="title-box"><h3>Paracord</h3></div>
+                           
+                            <div class="intro-description paracordex">
                                 正式にはパラシュートコード。<br>
                                 パラシュートのラインとしてつかわれていたナイロン製の紐。<br>
                                 色や柄のバリエーションが豊富。<br>
@@ -86,7 +101,7 @@
                         <div class="item intro-box">
                             <div class="title-box"><h3>Town</h3></div>
                             <img class="img-fluid townimg" src="images/town2.jpg" alt="街中での一枚">
-                            <div class="intro-description">
+                            <div class="intro-description townex">
                                 街の中へ、家族やお友達とお出かけする 特別な日。<br>
                                 <br>
                                 ショッピングや 素敵なレストラン カフェへ行くかも！？<br>
@@ -98,7 +113,7 @@
                         <div class="item intro-box">
                             <div class="title-box"><h3>Outdoor</h3></div>
                             <img class="img-fluid outdoorimg" src="images/outdoor.JPG" alt="アウトドアでの一枚">
-                            <div class="intro-description">
+                            <div class="intro-description outdoorex">
                                 お休みの日には 山、海、川、公園などで<br>
                                 思いっきりあそびたい！<br>
                                 <br>
@@ -109,6 +124,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <!--コントローラーボタン（矢印）-->
                     <a class="carousel-control left" href="#intro-carousel" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -120,10 +136,73 @@
             </div>
         </div>
         
-
+        <!--自己紹介-->
         <div class="aboutme-intro">
             <div class="container">
-                <img class="" src="">
+                <img class="aboutmeimg" src="images\IMG_4786.JPG" alt="自己紹介写真">
+                <div class="aboutme-description">
+                    <h1>自己紹介</h1>
+                    はじめまして、鈴木まなみといいます。<br>
+                    anju.aoで先生をしています。
+                </div>
+            </div>
+        </div>
+
+        <div  id="main" class="main-section">
+            <div class="container">
+                <ul>
+                    <li class="order">
+                        <div class="order-title">
+                            ORDER
+                        </div>
+                        <div class="order-box">
+                        <div class="order-contents">
+                            パラコードが<br>
+                            初めての方から、<br>
+                            もっと複雑なコードを<br>
+                            編んでみたい方まで<br>
+                            気軽にご参加ください<br>
+                        </div>
+                    </div>
+                        
+                        <a class="order-button" href="#" ><span>ORDER >></span></a>
+                    </li>
+
+                    <li class="workshop">
+                        <div class="workshop-title">
+                            WORKSHOP
+                        </div>
+                        <div class="workshop-box">
+                        <div class="workshop-contents">
+                            パラコードが<br>
+                            初めての方から、<br>
+                            もっと複雑なコードを<br>
+                            編んでみたい方まで<br>
+                            気軽にご参加ください<br>
+                        </div>
+                    </div>
+
+                        <a class="workshop-button" href="workshopK.html">WORKSHOP >></a>
+                    </li>
+            
+                    <li class="event">
+                        <div class="event-title">
+                            EVENT
+                        </div>
+                        <div class="event-box">
+                        <div class="event-contents">
+                            パラコードが<br>
+                            初めての方から、<br>
+                            もっと複雑なコードを<br>
+                            編んでみたい方まで<br>
+                            気軽にご参加ください<br>
+                        </div>
+                    </div>
+
+                        <a class="event-button" href="#">EVENT >></a>
+                    </li>
+                </ul>
+
             </div>
         </div>
 
@@ -139,69 +218,52 @@
                         <li data-target="#gallery-carousel" data-slide-to="2"></li>
                         <li data-target="#gallery-carousel" data-slide-to="3"></li>
                         <li data-target="#gallery-carousel" data-slide-to="4"></li>
+                        <li data-target="#gallery-carousel" data-slide-to="5"></li>
+                        <li data-target="#gallery-carousel" data-slide-to="6"></li>
+                        <li data-target="#gallery-carousel" data-slide-to="7"></li>
+                        <li data-target="#gallery-carousel" data-slide-to="8"></li>
+                        <li data-target="#gallery-carousel" data-slide-to="9"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="item gallery-box active">
-                           hey
+                            <img class="gallery-fluid g0" src="gallery/g0.JPG" alt="gallery 1枚目">
                         </div>
-
                         <div class="item gallery-box">
-                            yo
+                            <img class="gallery-fluid g1" src="gallery/g1.JPG" alt="gallery 2枚目">
                         </div>
-
                         <div class="item gallery-box">
-                            cmon  
+                            <img class="gallery-fluid g2" src="gallery/g2.jpg" alt="gallery 3枚目">
                         </div>
-
                         <div class="item gallery-box">
-                            letsgo
+                            <img class="gallery-fluid g3" src="gallery/g3.JPG" alt="gallery 4枚目">
                         </div>
-
                         <div class="item gallery-box">
-                            here
+                            <img class="gallery-fluid g4" src="gallery/g4.JPG" alt="gallery 5枚目">
                         </div>
-
                         <div class="item gallery-box">
-
+                            <img class="gallery-fluid g5" src="gallery/g5.jpg" alt="gallery 6枚目">
                         </div>
-
+                        <div class="item gallery-box">
+                            <img class="gallery-fluid g6" src="gallery/g6.JPG" alt="gallery 7枚目">
+                        </div>
+                        <div class="item gallery-box">
+                            <img class="gallery-fluid g7" src="gallery/g7.JPG" alt="gallery 8枚目">
+                        </div>
+                        <div class="item gallery-box">
+                            <img class="gallery-fluid g8" src="gallery/g8.JPG" alt="gallery 9枚目">
+                        </div>
+                        <div class="item gallery-box">
+                            <img class="gallery-fluid g9" src="gallery/g9.jpg" alt="gallery 10枚目">
+                        </div>
                     </div>
+                    <!--コントローラーボタン（矢印）-->
+                    <a class="carousel-control left" href="#gallery-carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control right" href="#gallery-carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    </a>
                 </div>
-
-
-            </div>
-        </div>
-
-        <div  id="main" class="main-section">
-            <div class="container">
-                <ul>
-                    <li class="workshop">
-                        <div class="workshop-title">
-                            <h3>WORKSHOP</h3>
-                        </div>
-
-                        <div class="workshop-contents">
-                            パラコードが<br>
-                            初めての方から、<br>
-                            もっと複雑なコードを<br>
-                            編んでみたい方まで<br>
-                            気軽にご参加ください<br>
-                        </div>
-                    </li>
-            
-                    <li class="order">
-                        <div class="order-title">
-                            <h3>ORDER</h3>
-                        </div>
-                    </li>
-            
-                    <li class="online">
-                        <div class="online-title">
-                            <h3>ONLINE</h3>
-                        </div>
-                    </li>
-                </ul>
-
             </div>
         </div>
 

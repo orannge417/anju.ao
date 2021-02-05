@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    font-weight: 400;
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        transition: all .3s;
+    }
+
+    .container  {
+        width: 100%;
+        
+    }
+
+    header {
+        height: 2.7vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        line-height: 2.7vw;
+        z-index: 10;
+
+        .header-logo{
+            float: left;
+            color: #0ba2d8;
+            font-weight: 700;
+            margin-left:10vw;
+            font-size: 1.5vw;
+            font-family: 'Dosis', sans-serif;
+            cursor: pointer;
+            display:inline-block;
+        }
+
+        .header-menu-right {
+            float: right;
+            margin-right: 1vw;
+            font-size: 1.5vw;
+
+            li {
+                float:left;
+            }
+
+            a {
+                color: #323A45;
+                font-weight: 700;
+                padding-left: 10vw;
+                padding-right:10vw;
+                text-decoration: none;
+
+                &:hover {
+                    color: #0ba2d8;
+                    transition: color .3s;
+                }
+            }
+
+            
+        }
+    }
+
+    .intro-section{
+        margin-top: 2.7vw;
+        width: 100%;
+
+        #intro-carousel {
+            height: 34vw;
+
+            li {
+                background-color: #869791;
+                position: relative;
+                top: 1vw;
+            }
+            
+        }
+
+        .intro-box {
+            margin: 0 auto;
+            width: 100%;
+            height: 34vw;
+            overflow: hidden;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            
+            
+            //position: relative;
+            //border: 2px solid #007b43; /*左枠線*/
+            
+            width: 90%;
+            padding: 20px 15px 15px 20px;
+            z-index: 0;
+
+            margin-top: 0px;
+
+            .event-title {
+                position: absolute;
+                color: #ffffff;
+                margin-top: 8vw;
+                margin-left: 30vw;
+                font-size: 4vw;
+            }
+
+            .event-description {
+                position: absolute !important;
+                margin: 0 auto;
+                margin-left:27vw;
+                margin-top: 18vw;
+                font-size: 1.2vw;
+                color: #ffffff;
+                text-align:center;
+
+            }
+            
+            .paracordimg{
+                //paracordのところ
+                float:left;
+                color: #ffffff;
+                margin-top:4vw;
+                margin-left:0%;
+                 width: 50vw;
+                 height: auto;
+            }
+            
+            .townimg{
+                float:left;
+                color: #ffffff;
+                width: 100%;
+                height: auto;
+                margin-left: 15vw;
+            
+
+            }
+
+            .outdoorimg{
+                width: 63%;
+                color: #ffffff;
+                height: auto;
+                float: right;
+                margin-top: 1%;
+                margin-right: 30%;
+                position: absolute;
+
+
+            }
+            
+        }
+        
+        .carousel-control{
+            color: white !important;
+        }                            
+
+        
+    }
+
+    .past-event-container{
+        background: #8fc3d6;
+        width: 100%;
+        height: 60vw;
+    }
+
+    .past-event-title{
+        
+        padding-top: 2vw;
+        font-size: 2.6vw;
+        margin-left: 3vw; 
+        font-size : 2.3vw;
+    }
+
+    .past-event1-container{
+        background: #225466;
+        width: 20vw;
+        height: 24vw;
+        margin-top: 2vw;
+        margin-left: 3vw;
+    }
+
+    .past-event1{
+        padding-left: 1.3vw;
+        padding-right: 1.5vw;
+        padding-top: 2vw;
+        position: absolute;
+        height: 19vw;
+
+    }
+
+    .past-event2-container{
+        background: #225466;
+        width: 20vw;
+        height: 24vw;
+        margin-top: 2vw;
+        margin-left: 29vw;
+    }
+
+    .past-event2{
+        padding-left: 1.3vw;
+        padding-right: 1.5vw;
+        padding-top: 2vw;
+        position: absolute;
+        height: 19vw;
+
+    }
+    
+
+    .past-event3{
+        margin-left: 54vw;
+        margin-top: 5vw;
+        position: absolute;
+        height: 16.5vw;
+
+    }
+
+    .past-event4{
+        margin-left: 80vw;
+        margin-top: 5vw;
+        position: absolute;
+        height: 16.5vw;
+
+    }
+
+    .past-event5{
+        margin-left: 3vw;
+        margin-top: 30vw;
+        position: absolute;
+        height: 16.5vw;
+
+    }
+
+    .past-event6{
+        margin-left: 28.5vw;
+        margin-top: 30vw;
+        position: absolute;
+        height: 16.5vw;
+
+    }
+
+    .past-event7{
+        margin-left: 54vw;
+        margin-top: 30vw;
+        position: absolute;
+        height: 16.5vw;
+
+    }
+
+    .past-event8{
+        margin-left: 80vw;
+        margin-top: 30vw;
+        position: absolute;
+        height: 16.5vw;
+
+    }
+
+    .schedule-title{
+        padding-top: 2vw;
+        font-size: 2.6vw;
+        margin-left: 3vw;
+    }
+
+
+    .border1{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        border-bottom:dotted 3px  #8ec6ff;
+        margin-top: 18vw;
+    }
+
+    .border2{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        border-bottom:dotted 3px  #8ec6ff;
+        margin-top: 18vw;
+    }
+
+    .border3{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        border-bottom:dotted 3px  #8ec6ff;
+        margin-top: 18vw;
+    }
+
+    .border4{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        border-bottom:dotted 3px  #8ec6ff;
+        margin-top: 18vw;
+    }
+
+    .border5{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        border-bottom:dotted 3px  #8ec6ff;
+        margin-top: 18vw;
+    }
+
+    .border6{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        border-bottom:dotted 3px  #8ec6ff;
+        margin-top: 18vw;
+    }
+
+   
+
+
+
+
+
+   
+  
+
+
+   
+}
